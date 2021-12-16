@@ -4,9 +4,7 @@ Foram criados arquivos contendo HTML, CSS e JavaScript.
 
 ### Arquivos
 
-calculandoQuadradoDeUmNumero.html
-    Calcula o quadrado de um número obtido pelo input
+[Calcula o quadrado de um número obtido pelo input](https://github.com/soyvieira/dio-desafio-github-segundo-repositorio/blob/main/calculandoQuadradoDeUmNumero.html)
 
-exibindoMaiorNumero.html
-    Exibe o maior número de uma lista informada através do input
+[Exibe o maior número de uma lista informada através do input](https://github.com/soyvieira/dio-desafio-github-segundo-repositorio/blob/main/exibindoMaiorNumero.html)
 
