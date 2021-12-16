@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exibindo Maior Número - Brincado com JS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Código JS para exibir o maior número em uma lista de números -->
+        <script>
+            function verificarMaior(){
+            numeros=document.getElementById("txtNumeros").value; //obtendo a lista de numeros 
+            numeros=numeros.split(",");
+            var maior = parseInt(numeros[0]);
+            for(i=1;i<numeros.length;i++){
+                if(parseInt(numeros[i]) > maior){
+                    maior = parseInt(numeros[i]);
+                }
+            }
+            document.write("O maior número é "+maior); //exibe o maior número
+            
+            }
+        </script>
+    </head>
+    <body>
+
+        <p>Digite números separados por vírgula:</p>
+        <p><input type="text" id="txtNumeros"></p>
+        <p><input type="button" value="Qual o maior número?" onclick="verificarMaior()"></p>
+        
+    </body>
+</html>
